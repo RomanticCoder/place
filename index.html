@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700|Averia+Sans+Libre' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="src/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="src/css/gooey.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="src/css/style.css"> 
+	<link rel="stylesheet" href="src/css/main.css"> 
+	<script src="https://kit.fontawesome.com/006f14bf04.js" crossorigin="anonymous"></script>
+    <script src="src/js/main.js" defer></script>
+  	
+	<title>Portfolio website</title>
+</head>
+<body class="gooey-transition">
+<main class="cd-main-content">
+	<div class="center">
+		<h1 class="entrance-text"> Looking for a co-op student?</h1>
+		<div class="search-bar">
+			<div><p class="input-name">Jordan</p></div>
+			<a href="#modal-1" class="cd-btn cd-modal-trigger">SEARCH</a>
+		</div>
+	</div>
+	
+</main> <!-- .cd-main-content -->
+
+<div class="cd-modal" id="modal-1">
+	<div class="modal-content">
+		<div class="navbar">
+			<ul class="navbar__menu">
+				<li class="navbar__menu__item"><a href="#about">About</a> </li>
+				<li class="navbar__menu__item"><a href="#skills">Skills</a></li>
+				<li class="navbar__menu__item"><a href="#work">Projects</a></li>
+				<li class="navbar__menu__item"><a href="#contact">contact</a></li>
+			</ul>
+		</div>
+	  <div class="main">
+	
+		<section id="about">
+			<h1 class="section__title">About me</h1>
+			<h3 class="section__description"></h3>
+  
+			<div class="about__content">
+			<div class="video-wrapper">
+			  <!-- <iframe class="video-content" width = "500px" height="500px" frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/sapLz6NjvJk?mute=1&origin=https://OurWebsiteDomain" title="Bug Week"></iframe> -->
+			  <video class="video-content" controls>
+				<source src="src/img/self-introduction.mp4" type="video/mp4">
+			  </video>
+			  
+			</div>
+			<div class="school">
+				<div class="education">
+					<img class="school--img" src="https://www.georgiancollege.ca/wp-content/themes/georgian/imgs/accelerator-georgian.svg" alt="">
+					<div>
+						<p>computer programmer</p>
+						<p>(2020 April - until Now)</p>
+					</div>
+				</div>
+				<ul class="school-subjects">
+					<h3>What I've learned at school</h3>
+
+					<div class="subject__language">
+						<li class="school-subject">Java</li>
+						<li class="school-subject">HTML/CSS</li>
+						<li class="school-subject">JavaScript</li>
+						<li class="school-subject">PHP</li>
+						<li class="school-subject">C#</li>
+					</div>
+					<div>
+						<div class="subject__database">
+							<li class="school-subject">mySQL</li>
+							<li class="school-subject">msSQL</li>
+						</div>
+						<div class="subject__framework">
+							<li class="school-subject">ASP.NET</li>
+							<li class="school-subject">Mainframe</li>
+						</div>
+					</div>
+
+				</ul>
+			</div>
+		</div>
+	  
+		</section>
+		<section id="skills">
+			<h1 class="section__title">skills</h1>
+			<h3 class="section__description">What I am Strong At</h3>
+			<div>
+
+			</div>
+		<div class="skills">
+		  <div class="softskills">
+			<ul>
+			  <li>✔️ fast learner & self-learner</li>
+			  <li>✔️ team work</li>
+			  <li>✔️ can work under time pressure</li>
+			</ul>
+			<!-- <p class="skills--description">Tools</p> -->
+			<ul class="attributes">
+			  <li>🔸 android development tool </li>
+			  <li>🔸 visual studio code </li>
+			  <li>🔸 sublime text </li>
+			  <li>🔸 version control using Git</li>
+			</ul>
+		  </div>
+
+		  <div class="hardskills">
+			<div class="skill">
+			  <div class="skill_bar">
+				<div class="skill_value">99%</div>
+			  </div>
+			  <div class="skill_name">HTML</div>
+			</div>
+			<div class="skill">
+			  <div class="skill_bar">
+				<div class="skill_value">99%</div>
+			  </div>
+			  <div class="skill_name">CSS</div>
+			</div>
+			<div class="skill">
+				<div class="skill_bar">
+				  <div class="skill_value">95%</div>
+				</div>
+				<div class="skill_name">JS</div>
+			  </div>
+			  <!-- <div class="skill">
+				<div class="skill_bar">
+				  <div class="skill_value"></div>
+				</div>
+				<div class="skill_name">TS</div>
+			  </div> -->
+			<div class="skill">
+			  <div class="skill_bar">
+				<div class="skill_value">90%</div>
+			  </div>
+			  <div class="skill_name">C#</div>
+			</div>
+			<div class="skill">
+			  <div class="skill_bar">
+				<div class="skill_value">90%</div>
+			  </div>
+			  <div class="skill_name">Java</div>
+			</div>
+		  </div>
+		</div>
+		</section>
+		<section id="work">
+		  <!-- 
+			introduction video
+			filters js ts react
+			
+		  -->
+		  <h1 class="section__title">my work</h1>
+		  <h3 class="section__description">projects</h3>
+		  <div class="work__categories">
+			<button class="category__btn selected" data-filter="*">All</button>
+			<button class="category__btn" data-filter="js" style="background-color: rgb(62, 160, 62)">#JavaScript</button>
+			<button class="category__btn" data-filter="ts" style="background-color: rgb(11, 90, 236)">#TypeScript</button>
+			<!-- <button class="category__btn" data-filter="react" style="background-color: rgb(147, 219, 236)">#React</button> -->
+			<!-- <button class="category__btn" data-filter="fb" style="background-color: rgb(218, 68, 68)">#FireBase</button> -->
+			<button class="category__btn" data-filter="cs" style="background-color: rgb(255, 132, 204)">#C_SHARP</button>
+
+		  </div>
+		  <div class="work__projects">
+			<a href="https://romanticcoder.github.io/paintJS/" class="project" target="_blank" data-type="js">        
+				<img src="src/img/paint.png" alt="paint app" class="project__image">
+				<div class="project__description">
+				  <h3>Paint App</h3>
+				  <span>Painting app using Vanilla JS</span>
+				</div>
+			  </a>
+			<a href="https://romanticcoder.github.io/DoNotFeedYour/" class="project" target="_blank" data-type="js">        
+			  <img src="src/img/project2.png" alt="mini game" class="project__image">
+			  <div class="project__description">
+				<h3>Mini game</h3>
+				<span>mini game with understanding of js</span>
+			  </div>
+			</a>
+			
+			  <a href="https://romanticcoder.github.io/webpage_inspiredbybbc/" class="project" target="_blank" data-type="js">        
+				<img src="src/img/interactive.png" alt="mini game" class="project__image">
+				<div class="project__description">
+				<h3>Interactive Web page</h3>
+				<span>clone coding with html and css, inspired by bbc work</span>
+			  </div>
+			</a>
+					
+			<a href="https://romanticcoder.github.io/chrome_app_JS/" class="project" target="_blank" data-type="js">        
+				<img src="src/img/momentum.png" alt="mini game" class="project__image">
+			  <div class="project__description">
+				<h3>Momentum app clone coding </h3>
+				<span>JS, used web apis - local storage, weather, background api</span>
+			  </div>
+			</a>
+							
+			<a href="https://github.com/RomanticCoder/InventoryManager#readme" class="project" target="_blank" data-type="cs"> 
+				<img src="https://user-images.githubusercontent.com/67548512/133010238-d6c813a6-9fc0-492c-89be-6ccabb4f79a8.png" alt="mini game" class="project__image">
+			  <div class="project__description">
+				<h3>Inventory Management System</h3>
+				<span>food stalker</span>
+			  </div>
+			</a>
+						   
+			<!-- <a href="https://romanticcoder.github.io/item-filter_JSON/" class="project" target="_blank" data-type="js">        
+				<img src="src/img/todo.png" alt="mini game" class="project__image">
+			  <div class="project__description">
+				<h3>shopping catalog</h3>
+				<span>clone coding with html and css</span>
+			  </div>
+			</a>                 -->
+			<a href="https://romanticcoder.github.io/todo_localStorage/" class="project" target="_blank" data-type="js">        
+				<img src="src/img/todo.png" alt="mini game" class="project__image">
+			  <div class="project__description">
+				<h3>todo app + localStorage</h3>
+				<span>clone coding with html and css</span>
+			  </div>
+			</a>
+			<a href="https://romanticcoder.github.io/project_manager-VanilaJS/" class="project" target="_blank" data-type="js">        
+				<img src="src/img/project.png" alt="mini game" class="project__image">
+			  <div class="project__description">
+				<h3>personal project manager</h3>
+				<span>clone coding with html and css</span>
+			  </div>
+			</a>
+		  </div>
+		</section>
+		<section id="contact">
+			<h1 class="section__title">Contact</h1>
+			<h3 class="section__description">Get in touch with me!</h3>
+			<ul class="contact__list">
+				<li class="contact"><a target="_blank" href="mailto:sddublow@gmail.com"><i class="far fa-envelope"></i></a></li>
+				<li class="contact"><a target="_blank" href="tel:249-877-8459"><i class="fas fa-mobile-alt"></i></a></li>
+				<li class="contact"><a target="_blank" href="https://github.com/RomanticCoder"><i class="fab fa-github"></i></a></li>
+			</ul>
+		</section>
+	  </div>
+	  <footer>
+		2021 Jordan Lee - All rights reserved
+	</footer>
+	
+			<!-- <div class="video-wrapper">
+				<iframe class="video-content" frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/sapLz6NjvJk?mute=1&origin=https://OurWebsiteDomain" title="Bug Week"></iframe>
+			</div>
+			<a class="btn-link" href="main.html">Come over to my place!</a> -->
+	</div> <!-- .modal-content -->
+	<!-- <a href="#0" class="modal-close">Close</a> -->
+</div> <!-- .cd-modal -->
+
+<div class="cd-transition-layer" data-frame="25"> 
+	<div class="bg-layer"></div>
+</div> <!-- .cd-transition-layer -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="src/js/gooey/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
